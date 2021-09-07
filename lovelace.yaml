@@ -1,0 +1,248 @@
+type: vertical-stack
+cards:
+  - type: custom:button-card
+    entity: input_boolean.master_enable_sprinklers
+    icon: mdi:water-pump
+    color_type: label-card
+    color: rgb(44, 109, 214)
+    name: Master switch
+    styles:
+      card:
+        - height: 100px
+  - type: horizontal-stack
+    cards:
+      - type: custom:button-card
+        entity: input_boolean.enable_zone_1
+        show_name: false
+        color_type: card
+        color: rgb(66, 134, 244)
+        icon: mdi:numeric-1-box-outline
+        styles:
+          card:
+            - height: 50px
+      - type: custom:button-card
+        entity: input_boolean.enable_zone_2
+        show_name: false
+        color_type: card
+        color: rgb(66, 134, 244)
+        icon: mdi:numeric-2-box-outline
+        styles:
+          card:
+            - height: 50px
+      - type: custom:button-card
+        entity: input_boolean.enable_zone_3
+        show_name: false
+        color_type: card
+        color: rgb(66, 134, 244)
+        icon: mdi:numeric-3-box-outline
+        styles:
+          card:
+            - height: 50px
+      - type: custom:button-card
+        entity: input_boolean.enable_zone_4
+        show_name: false
+        color_type: card
+        color: rgb(66, 134, 244)
+        icon: mdi:numeric-4-box-outline
+        styles:
+          card:
+            - height: 50px
+      - type: custom:button-card
+        entity: input_boolean.enable_zone_5
+        show_name: false
+        color_type: card
+        color: rgb(66, 134, 244)
+        icon: mdi:numeric-5-box-outline
+        styles:
+          card:
+            - height: 50px
+      - type: custom:button-card
+        entity: input_boolean.enable_bypass
+        show_name: false
+        color_type: card
+        color: rgb(66, 134, 244)
+        icon: mdi:valve
+        styles:
+          card:
+            - height: 50px
+      - type: custom:button-card
+        entity: input_boolean.enable_auto_pump
+        show_name: false
+        color_type: card
+        color: rgb(66, 134, 244)
+        icon: mdi:pump
+        styles:
+          card:
+            - height: 50px
+  - type: horizontal-stack
+    cards:
+      - type: custom:button-card
+        entity: input_datetime.zone_1
+        color_type: card
+        color: rgb(66, 134, 244)
+        show_name: false
+        show_icon: false
+        show_state: true
+        styles:
+          card:
+            - height: 50px
+      - type: custom:button-card
+        entity: input_datetime.zone_2
+        color_type: card
+        color: rgb(66, 134, 244)
+        show_name: false
+        show_icon: false
+        show_state: true
+        styles:
+          card:
+            - height: 50px
+      - type: custom:button-card
+        entity: input_datetime.zone_3
+        color_type: card
+        color: rgb(66, 134, 244)
+        show_name: false
+        show_icon: false
+        show_state: true
+        styles:
+          card:
+            - height: 50px
+      - type: custom:button-card
+        entity: input_datetime.zone_4
+        color_type: card
+        color: rgb(66, 134, 244)
+        show_name: false
+        show_icon: false
+        show_state: true
+        styles:
+          card:
+            - height: 50px
+      - type: custom:button-card
+        entity: input_datetime.zone_5
+        color_type: card
+        color: rgb(66, 134, 244)
+        show_name: false
+        show_icon: false
+        show_state: true
+        styles:
+          card:
+            - height: 50px
+      - type: custom:button-card
+        color_type: card
+        color: rgb(66, 134, 244)
+        show_name: false
+        show_icon: false
+        show_state: true
+        styles:
+          card:
+            - height: 50px
+      - type: custom:button-card
+        color_type: card
+        color: rgb(66, 134, 244)
+        show_name: false
+        show_icon: false
+        show_state: true
+        styles:
+          card:
+            - height: 50px
+  - type: horizontal-stack
+    cards:
+      - type: custom:button-card
+        entity: switch.sprinklers_channel_1
+        color_type: card
+        color: rgb(189, 255, 5)
+        icon: mdi:numeric-1-box-outline
+        show_name: false
+        styles:
+          card:
+            - height: 60px
+      - type: custom:button-card
+        entity: switch.sprinklers_channel_2
+        color_type: card
+        color: rgb(189, 255, 5)
+        icon: mdi:numeric-2-box-outline
+        show_name: false
+        styles:
+          card:
+            - height: 60px
+      - type: custom:button-card
+        entity: switch.sprinklers_channel_3
+        color_type: card
+        color: rgb(189, 255, 5)
+        icon: mdi:numeric-3-box-outline
+        show_name: false
+        styles:
+          card:
+            - height: 60px
+      - type: custom:button-card
+        entity: switch.sprinklers_channel_4
+        show_name: false
+        color_type: card
+        color: rgb(189, 255, 5)
+        icon: mdi:numeric-4-box-outline
+        styles:
+          card:
+            - height: 60px
+      - type: custom:button-card
+        entity: switch.sprinklers_channel_5
+        show_name: false
+        color_type: card
+        color: rgb(189, 255, 5)
+        icon: mdi:numeric-5-box-outline
+        styles:
+          card:
+            - height: 60px
+      - type: custom:button-card
+        entity: switch.bypass_grid_valve
+        color_type: card
+        color: rgb(189, 255, 5)
+        icon: mdi:valve
+        show_name: false
+        styles:
+          card:
+            - height: 60px
+      - type: vertical-stack
+        cards:
+          - type: custom:button-card
+            entity: switch.pump_auto
+            color_type: card
+            color: rgb(189, 255, 5)
+            icon: mdi:pump
+            show_name: false
+            styles:
+              card:
+                - height: 25px
+          - type: custom:button-card
+            entity: switch.pump_trigger
+            color_type: card
+            color: rgb(189, 255, 5)
+            icon: mdi:pump
+            show_name: false
+            styles:
+              card:
+                - height: 25px
+  - type: horizontal-stack
+    cards:
+      - type: custom:button-card
+        entity: counter.zone
+        color_type: card
+        color: rgb(66, 134, 244)
+        show_name: true
+        show_state: true
+        show_icon: false
+        styles:
+          card:
+            - height: 100px
+      - type: custom:button-card
+        entity: timer.zone
+        color_type: card
+        color: rgb(66, 134, 244)
+        show_name: false
+        show_state: true
+        show_icon: false
+        styles:
+          card:
+            - height: 100px
+  - type: entities
+    entities:
+      - entity: input_select.controller_mode
+        name: Controlador

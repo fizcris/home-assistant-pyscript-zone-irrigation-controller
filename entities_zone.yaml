@@ -1,0 +1,57 @@
+timer:
+  zone:
+
+counter:
+  zone:
+    initial: 0
+    step: 1
+
+input_select:
+  controller_mode:
+    name: Zone Controller Mode
+    options:
+      - "off"
+      - "on"
+      - "pause"
+
+input_boolean:
+  master_enable_sprinklers:
+    name: "Master Enable sprinklers"
+  enable_zone_1:
+    name: "Enable Zone 1"
+  enable_zone_2:
+    name: "Enable Zone 2"
+  enable_zone_3:
+    name: "Enable Zone 3"
+  enable_zone_4:
+    name: "Enable Zone 4"
+  enable_zone_5:
+    name: "Enable Zone 5"
+  enable_bypass:
+    name: "Enable bypass valve"
+  enable_auto_pump:
+    name: "Enable auto pump"
+  enable_sprinklers_eco:
+    name: "Enable sprinklers eco"
+
+input_datetime:
+  zone_1:
+    name: Zone 1
+    has_date: false
+    has_time: true
+  zone_2:
+    name: Zone 2
+    has_date: false
+    has_time: true
+  zone_3:
+    name: Zone 3
+    has_date: false
+    has_time: true
+  zone_4:
+    name: Zone 4
+    has_date: false
+    has_time: true
+  zone_5:
+    name: Zone 5
+    has_date: false
+    has_time: true
