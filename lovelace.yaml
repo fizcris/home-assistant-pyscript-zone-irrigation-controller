@@ -155,6 +155,10 @@ cards:
         styles:
           card:
             - height: 60px
+        state:
+          - value: unavailable
+            color_type: card
+            color: opacity(50%)
       - type: custom:button-card
         entity: switch.sprinklers_channel_2
         color_type: card
@@ -164,6 +168,10 @@ cards:
         styles:
           card:
             - height: 60px
+        state:
+          - value: unavailable
+            color_type: card
+            color: opacity(50%)
       - type: custom:button-card
         entity: switch.sprinklers_channel_3
         color_type: card
@@ -173,6 +181,10 @@ cards:
         styles:
           card:
             - height: 60px
+        state:
+          - value: unavailable
+            color_type: card
+            color: opacity(50%)
       - type: custom:button-card
         entity: switch.sprinklers_channel_4
         show_name: false
@@ -182,6 +194,10 @@ cards:
         styles:
           card:
             - height: 60px
+        state:
+          - value: unavailable
+            color_type: card
+            color: opacity(50%)
       - type: custom:button-card
         entity: switch.sprinklers_channel_5
         show_name: false
@@ -191,6 +207,10 @@ cards:
         styles:
           card:
             - height: 60px
+        state:
+          - value: unavailable
+            color_type: card
+            color: opacity(50%)
       - type: custom:button-card
         entity: switch.bypass_grid_valve
         color_type: card
@@ -200,6 +220,10 @@ cards:
         styles:
           card:
             - height: 60px
+        state:
+          - value: unavailable
+            color_type: card
+            color: opacity(50%)
       - type: vertical-stack
         cards:
           - type: custom:button-card
@@ -211,6 +235,10 @@ cards:
             styles:
               card:
                 - height: 25px
+            state:
+              - value: unavailable
+                color_type: card
+                color: opacity(50%)
           - type: custom:button-card
             entity: switch.pump_trigger
             color_type: card
@@ -220,6 +248,10 @@ cards:
             styles:
               card:
                 - height: 25px
+            state:
+              - value: unavailable
+                color_type: card
+                color: opacity(50%)
   - type: horizontal-stack
     cards:
       - type: custom:button-card
